@@ -1,0 +1,130 @@
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+}
+
+.hed-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+  height: 33px;
+  letter-spacing: 2px;
+}
+.hed-text {
+  -webkit-animation: hed-text 2s linear infinite alternate both;
+  animation: hed-text 2s linear infinite alternate both;
+}
+@-webkit-keyframes hed-text {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes hed-text {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+.hed-icon {
+  font-size: 70px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hed-tex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.hed-tex a {
+  color: white;
+}
+
+.hed-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.hed-input input {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  border: solid black 2px;
+}
+
+.hed-input input:hover {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  box-shadow: inset 1px 1px 10px 3px;
+  transition: 0.3s;
+  border: solid black 2px;
+}
+
+.hero img:hover {
+  width: 350px;
+  /* height: 500px; */
+  transition: 0.5s;
+}
+.s {
+  background-color: #c0c0c06b;
+  width: 1440px;
+  height: 120px;
+  position: absolute;
+  top: 298px;
+}
+/* ! ANIMATION ! */
+s {
+  -webkit-animation: hed-text 2s linear infinite alternate both;
+  animation: hed-text 2s linear infinite alternate both;
+}
+@-webkit-keyframes s {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes s {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+.hero {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+  padding: 30px;
+}
+
+.bask {
+  margin: 120px 0 0 0;
+}
